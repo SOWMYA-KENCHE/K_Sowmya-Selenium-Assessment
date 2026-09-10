@@ -42,12 +42,12 @@ public class day3testcase01 {
 		driver.findElement(By.id("a_FromSector_show")).sendKeys("goa");
 		Thread.sleep(1000);
 		driver.findElement(By.id("spnGoa")).click();
-    Thread.sleep(2000);
-    //enter state in to field
-    driver.findElement(By.id("ptt")).click();
-    driver.findElement(By.id("a_Editbox13_show")).sendKeys("kolkata");
-    driver.findElement(By.id("spnKolkata")).click();
-    Thread.sleep(2000);
+        Thread.sleep(2000);
+        //enter state in to field
+        driver.findElement(By.id("ptt")).click();
+        driver.findElement(By.id("a_Editbox13_show")).sendKeys("kolkata");
+        driver.findElement(By.id("spnKolkata")).click();
+        Thread.sleep(2000);
 		//click departure 
 		driver.findElement(By.id("ddate"));
 		driver.findElement(By.id("trd_5_18/09/2026")).click();
@@ -55,18 +55,18 @@ public class day3testcase01 {
 		driver.findElement(By.id("myFunction4")).click();
 		Thread.sleep(1000);
 		driver.findElement(By.id("add")).click();
-    driver.findElement(By.cssSelector("[value='Search']")).click();
-    //verify
-    String result= driver.getTitle();
-    if(result.contains("EaseMyTrip.com Lowest Airfare, Flight Tickets, Cheap Air Tickets – EaseMyTrip.com")) {
+        driver.findElement(By.cssSelector("[value='Search']")).click();
+        //verify
+       String result= driver.getTitle();
+       if(result.contains("EaseMyTrip.com Lowest Airfare, Flight Tickets, Cheap Air Tickets – EaseMyTrip.com")) {
     	   System.out.println("flight results page is displayrd");
-    }
-    else
+       }
+       else
         {
     	   System.out.println("flight results page is not displayed");
         }
-    Thread.sleep(1000);
-    driver.quit();
+        Thread.sleep(1000);
+        driver.quit();
 	}
 
 }
