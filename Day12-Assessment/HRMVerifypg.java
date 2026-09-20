@@ -1,10 +1,12 @@
 package orangehrmday12;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class HRMVerifypg {
 	
@@ -24,7 +26,7 @@ public class HRMVerifypg {
 	@FindBy(xpath = "(//div[@class='oxd-select-text-input'])[2]")
 	private WebElement vacanycheck;
 	
-	@FindBy(xpath = "//span[text()='Selenium tester']")
+	@FindBy(xpath = "//span[text()='Automation Testing']")
 	private WebElement vacanycheckclick;
 	
 	@FindBy(xpath = "(//div[@class='oxd-select-text-input'])[4]")
@@ -36,14 +38,11 @@ public class HRMVerifypg {
 	@FindBy(css = "[type='submit']")
 	private WebElement search;
 	
-	@FindBy(css = "[class='oxd-text oxd-text--span']")
+	@FindBy(xpath = "//span[text()='(1) Record Found']")
 	private WebElement recordverify;
 	
 	@FindBy(css = "[href='/web/index.php/pim/viewMyDetails']")
 	private WebElement myinfoclick;
-	
-	@FindBy(css = "[class='oxd-text oxd-text--h6 --strong']")
-	private WebElement name;
 	
 	
 	// getters
@@ -62,7 +61,6 @@ public class HRMVerifypg {
 
 	public void getVacanycheckclick() {
 		vacanycheckclick.click();
-		vacanycheckclick.sendKeys(Keys.DOWN,Keys.DOWN,Keys.ENTER);
 	}
 
 	public void getStatuscheck() {
@@ -78,32 +76,12 @@ public class HRMVerifypg {
 	}
 
 	public void getRecordverify() {
-		if(recordverify.getText().equals(" (1) Records Found"))
-		{
-			System.out.println("vacancy added is verified");
-		}
-		else
-		{
-			System.out.println("vacancy added is not verified");
-		}
+		boolean recordverification = recordverify.isDisplayed();
+		Assert.assertTrue(recordverification);
 	}
-	
+
 	public void getMyinfoclick() {
 		myinfoclick.click();
-	}
-
-	public void getName() {
-		if(name.getText().equals("sowmya Kenche"))
-		{
-			System.out.println("edited details are updated");
-		}
-		else
-		{
-			System.out.println("edited details are not updated");
-		}
-	}
-
-	
-	
+	}	
 
 }
