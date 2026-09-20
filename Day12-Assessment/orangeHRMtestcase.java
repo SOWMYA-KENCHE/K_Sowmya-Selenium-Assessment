@@ -115,6 +115,7 @@ public class day12testcase01 extends Baseclasshrm {
 		Thread.sleep(5000);
 		ip.getFirstName(firstname);
 		Thread.sleep(2000);
+		ip.getMiddleName();
 		ip.getLastName(lastname);
 		Thread.sleep(2000);
 		ip.getEmpid(empid);
