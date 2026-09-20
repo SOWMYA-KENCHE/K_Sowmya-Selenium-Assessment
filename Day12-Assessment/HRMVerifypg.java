@@ -27,12 +27,6 @@ public class HRMVerifypg {
 	@FindBy(xpath = "//span[text()='Selenium tester']")
 	private WebElement vacanycheckclick;
 	
-	@FindBy(xpath = "(//div[@class='oxd-select-text-input'])[3]")
-	private WebElement hiringmanagercheck;
-	
-	@FindBy(xpath = "//span[text()='sneha k']")
-	private WebElement hiringmanagerclick;
-	
 	@FindBy(xpath = "(//div[@class='oxd-select-text-input'])[4]")
 	private WebElement statuscheck;
 
@@ -69,14 +63,6 @@ public class HRMVerifypg {
 	public void getVacanycheckclick() {
 		vacanycheckclick.click();
 		vacanycheckclick.sendKeys(Keys.DOWN,Keys.DOWN,Keys.ENTER);
-	}
-
-	public void getHiringmanagercheck() {
-		hiringmanagercheck.click();
-	}
-
-	public void getHiringmanagerclick() {
-		hiringmanagerclick.click();
 	}
 
 	public void getStatuscheck() {
