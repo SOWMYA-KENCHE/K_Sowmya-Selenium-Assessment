@@ -87,9 +87,6 @@ public class day12testcase01 extends Baseclasshrm {
 		verify.getVacanycheck();
 		verify.getVacanycheckclick();
 		Thread.sleep(1000);
-		verify.getHiringmanagercheck();
-		verify.getHiringmanagerclick();
-		Thread.sleep(1000);
 		verify.getStatuscheck();
 		verify.getStatusclick();
 		Thread.sleep(1000);
