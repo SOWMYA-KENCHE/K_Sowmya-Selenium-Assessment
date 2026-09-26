@@ -1,0 +1,6 @@
+﻿From,To,Name,Address,City,State,Zip code,Card type,Credit card number,Month,Year,Name on card,Flight,Airline ,Price
+Paris,Rome,Sowmya,123 Maple Street,New York,NY,10001,Visa,4111 1111,12,2020,Som,43,Virgin America,$472.56 
+Boston,London,Anya,Oak Avenue,Boston,MA,2108,Visa,5555 5555,11,2016,Anya,9696,Aer Lingus,$200.98 
+Portland,Berlin,Becky,789 Pine Road,Paris,France,"               	97205",Visa,8888 1881,2,2026,Beck,234,United Airlines,$200.98 
+Paris,Cario,oona,oxford street,England,UK,"	60601",Visa,2222 22223,10,2023,Oona,4346,Lufthansa,$233.98 
+Portland,Rome,Ramona,Birch Drive,Bangkok,Thailand,98101,Visa,"	3782 82246",3,2022,romi,12,Virgin America,$765.32 
