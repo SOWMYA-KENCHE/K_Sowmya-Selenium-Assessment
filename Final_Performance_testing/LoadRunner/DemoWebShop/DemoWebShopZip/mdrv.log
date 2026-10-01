@@ -1,0 +1,261 @@
+Virtual User Script started at: 10/2/2026 1:29:54 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2022.0.0 for Windows 11; build 605 (Mar 08 2022 19:29:30)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "D:\study\CAPGEMINI\performance-testing\DemoWebShop\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action1.
+Action1.c(4): Notify: Transaction "1_LaunchUrl" started.
+Action1.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action1.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action1.c(8): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action1.c(8): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action1.c(12): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action1.c(12): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action1.c(20): web_url("demowebshop.tricentis.com") started  	[MsgId: MMSG-26355]
+Action1.c(20): Notify: Saving Parameter "C_Category = books".
+Action1.c(20): web_url("demowebshop.tricentis.com") was successful, 7572 body bytes, 729 header bytes  	[MsgId: MMSG-26386]
+Action1.c(29): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action1.c(29): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action1.c(31): web_url("styles.css") started  	[MsgId: MMSG-26355]
+Action1.c(31): Registering web_url("styles.css") was successful  	[MsgId: MMSG-26390]
+Action1.c(39): web_url("default.css") started  	[MsgId: MMSG-26355]
+Action1.c(39): Registering web_url("default.css") was successful  	[MsgId: MMSG-26390]
+Action1.c(47): web_url("jquery.validate.unobtrusive.min.js") started  	[MsgId: MMSG-26355]
+Action1.c(47): Registering web_url("jquery.validate.unobtrusive.min.js") was successful  	[MsgId: MMSG-26390]
+Action1.c(55): web_url("responsive.css") started  	[MsgId: MMSG-26355]
+Action1.c(55): Registering web_url("responsive.css") was successful  	[MsgId: MMSG-26390]
+Action1.c(63): web_url("jquery-ui-1.10.3.custom.min.css") started  	[MsgId: MMSG-26355]
+Action1.c(63): Registering web_url("jquery-ui-1.10.3.custom.min.css") was successful  	[MsgId: MMSG-26390]
+Action1.c(71): web_url("jquery-ui-1.10.3.custom.min.js") started  	[MsgId: MMSG-26355]
+Action1.c(71): Registering web_url("jquery-ui-1.10.3.custom.min.js") was successful  	[MsgId: MMSG-26390]
+Action1.c(79): web_url("jquery-migrate-1.2.1.min.js") started  	[MsgId: MMSG-26355]
+Action1.c(79): Registering web_url("jquery-migrate-1.2.1.min.js") was successful  	[MsgId: MMSG-26390]
+Action1.c(87): web_url("nivo-slider.css") started  	[MsgId: MMSG-26355]
+Action1.c(87): Registering web_url("nivo-slider.css") was successful  	[MsgId: MMSG-26390]
+Action1.c(95): web_url("public.common.js") started  	[MsgId: MMSG-26355]
+Action1.c(95): Registering web_url("public.common.js") was successful  	[MsgId: MMSG-26390]
+Action1.c(103): web_url("public.ajaxcart.js") started  	[MsgId: MMSG-26355]
+Action1.c(103): Registering web_url("public.ajaxcart.js") was successful  	[MsgId: MMSG-26390]
+Action1.c(111): web_url("jquery.nivo.slider.js") started  	[MsgId: MMSG-26355]
+Action1.c(111): Registering web_url("jquery.nivo.slider.js") was successful  	[MsgId: MMSG-26390]
+Action1.c(119): web_url("jquery-1.10.2.min.js") started  	[MsgId: MMSG-26355]
+Action1.c(119): Registering web_url("jquery-1.10.2.min.js") was successful  	[MsgId: MMSG-26390]
+Action1.c(127): web_url("jquery.validate.min.js") started  	[MsgId: MMSG-26355]
+Action1.c(127): Registering web_url("jquery.validate.min.js") was successful  	[MsgId: MMSG-26390]
+Action1.c(135): web_url("0000224_141-inch-laptop_125.png") started  	[MsgId: MMSG-26355]
+Action1.c(135): Registering web_url("0000224_141-inch-laptop_125.png") was successful  	[MsgId: MMSG-26390]
+Action1.c(143): web_url("0000201_build-your-own-expensive-computer_125.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(143): Registering web_url("0000201_build-your-own-expensive-computer_125.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(151): web_url("0000215.png") started  	[MsgId: MMSG-26355]
+Action1.c(151): Registering web_url("0000215.png") was successful  	[MsgId: MMSG-26390]
+Action1.c(159): web_url("0000031_build-your-own-computer_125.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(159): Registering web_url("0000031_build-your-own-computer_125.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(167): web_url("logo.png") started  	[MsgId: MMSG-26355]
+Action1.c(167): Registering web_url("logo.png") was successful  	[MsgId: MMSG-26390]
+Action1.c(175): web_url("0000204_simple-computer_125.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(175): Registering web_url("0000204_simple-computer_125.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(183): web_url("0000015_25-virtual-gift-card_125.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(183): Registering web_url("0000015_25-virtual-gift-card_125.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(191): web_url("0000172_build-your-own-cheap-computer_125.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(191): Registering web_url("0000172_build-your-own-cheap-computer_125.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(199): web_url("0000240.png") started  	[MsgId: MMSG-26355]
+Action1.c(199): Registering web_url("0000240.png") was successful  	[MsgId: MMSG-26390]
+Action1.c(207): web_url("favicon.ico") started  	[MsgId: MMSG-26355]
+Action1.c(207): Registering web_url("favicon.ico") was successful  	[MsgId: MMSG-26390]
+Action1.c(215): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action1.c(215): web_concurrent_end was successful, 669291 body bytes, 7166 header bytes  	[MsgId: MMSG-26386]
+Action1.c(217): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action1.c(217): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action1.c(219): web_url("bullet-right.gif") started  	[MsgId: MMSG-26355]
+Action1.c(219): Registering web_url("bullet-right.gif") was successful  	[MsgId: MMSG-26390]
+Action1.c(227): web_url("loading.gif") started  	[MsgId: MMSG-26355]
+Action1.c(227): Registering web_url("loading.gif") was successful  	[MsgId: MMSG-26390]
+Action1.c(235): web_url("top-menu-divider.png") started  	[MsgId: MMSG-26355]
+Action1.c(235): Registering web_url("top-menu-divider.png") was successful  	[MsgId: MMSG-26390]
+Action1.c(243): web_url("star-x-inactive.png") started  	[MsgId: MMSG-26355]
+Action1.c(243): Registering web_url("star-x-inactive.png") was successful  	[MsgId: MMSG-26390]
+Action1.c(251): web_url("star-x-active.png") started  	[MsgId: MMSG-26355]
+Action1.c(251): Registering web_url("star-x-active.png") was successful  	[MsgId: MMSG-26390]
+Action1.c(259): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action1.c(259): web_concurrent_end was successful, 4038 body bytes, 1394 header bytes  	[MsgId: MMSG-26386]
+Action1.c(261): web_url("ui-bg_flat_75_ffffff_40x100.png") started  	[MsgId: MMSG-26355]
+Action1.c(261): web_url("ui-bg_flat_75_ffffff_40x100.png") was successful, 208 body bytes, 278 header bytes  	[MsgId: MMSG-26386]
+Action1.c(269): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action1.c(269): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action1.c(271): web_url("arrows.png") started  	[MsgId: MMSG-26355]
+Action1.c(271): Registering web_url("arrows.png") was successful  	[MsgId: MMSG-26390]
+Action1.c(279): web_url("bullets.png") started  	[MsgId: MMSG-26355]
+Action1.c(279): Registering web_url("bullets.png") was successful  	[MsgId: MMSG-26390]
+Action1.c(287): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action1.c(287): web_concurrent_end was successful, 2105 body bytes, 559 header bytes  	[MsgId: MMSG-26386]
+Action1.c(289): web_websocket_send started  	[MsgId: MMSG-26355]
+Action1.c(289): Warning: The string '"remote-settings/monitor_changes":"\"1790862338556\""' with parameter delimiters is not a parameter.
+Action1.c(289): Warning -35046: The WebSocket whose ID is "1" is not connected  	[MsgId: MWAR-35046]
+Action1.c(289): web_websocket_send highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action1.c(296): Notify: Transaction "1_LaunchUrl" ended with a "Pass" status (Duration: 4.0058 Wasted Time: 0.1161).
+Action1.c(300): Notify: Transaction "2_Register" started.
+Action1.c(302): web_url("Register") started  	[MsgId: MMSG-26355]
+Action1.c(302): web_url("Register") was successful, 5922 body bytes, 611 header bytes  	[MsgId: MMSG-26386]
+Action1.c(311): web_url("top-menu-triangle.png") started  	[MsgId: MMSG-26355]
+Action1.c(311): web_url("top-menu-triangle.png") was successful, 182 body bytes, 279 header bytes  	[MsgId: MMSG-26386]
+Action1.c(321): web_submit_data("register") started  	[MsgId: MMSG-26355]
+Action1.c(321): Notify: Parameter Substitution: parameter "P_Gender" =  "F"
+Action1.c(321): Notify: Parameter Substitution: parameter "P_FirstName" =  "kenche"
+Action1.c(321): Notify: Parameter Substitution: parameter "P_LastName" =  "sowmya"
+Action1.c(321): Notify: Parameter Substitution: parameter "P_Email" =  "sowmyakenche@gmail.com"
+Action1.c(321): Notify: Parameter Substitution: parameter "P_Password" =  "sowmya"
+Action1.c(321): Notify: Parameter Substitution: parameter "P_confirmPassword" =  "sowmya"
+Action1.c(321): Redirecting "https://demowebshop.tricentis.com/register" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action1.c(321): To location "https://demowebshop.tricentis.com/errorpage.htm?aspxerrorpath=/register"  	[MsgId: MMSG-26693]
+Action1.c(321): web_submit_data("register") was successful, 847 body bytes, 693 header bytes  	[MsgId: MMSG-26386]
+Action1.c(340): Notify: Transaction "2_Register" ended with a "Pass" status (Duration: 1.0794 Wasted Time: 0.0210).
+Action1.c(344): Notify: Transaction "3_Category" started.
+Action1.c(347): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action1.c(347): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action1.c(356): web_url("Books") started  	[MsgId: MMSG-26355]
+Action1.c(356): Notify: Parameter Substitution: parameter "C_Category" =  "books"
+Action1.c(356): Notify: Saving Parameter "C_product = fiction".
+Action1.c(356): web_url("Books") was successful, 6921 body bytes, 415 header bytes  	[MsgId: MMSG-26386]
+Action1.c(365): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action1.c(365): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action1.c(367): web_url("0000209_copy-of-computing-and-internet-ex_125.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(367): Notify: Parameter Substitution: parameter "C_Category" =  "books"
+Action1.c(367): Registering web_url("0000209_copy-of-computing-and-internet-ex_125.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(375): web_url("0000133_fiction_125.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(375): Notify: Parameter Substitution: parameter "C_product" =  "fiction"
+Action1.c(375): Notify: Parameter Substitution: parameter "C_Category" =  "books"
+Action1.c(375): Registering web_url("0000133_fiction_125.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(383): web_url("0000130_computing-and-internet_125.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(383): Notify: Parameter Substitution: parameter "C_Category" =  "books"
+Action1.c(383): Registering web_url("0000130_computing-and-internet_125.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(391): web_url("0000131_health-book_125.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(391): Notify: Parameter Substitution: parameter "C_Category" =  "books"
+Action1.c(391): Registering web_url("0000131_health-book_125.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(399): web_url("0000132_science_125.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(399): Notify: Parameter Substitution: parameter "C_Category" =  "books"
+Action1.c(399): Registering web_url("0000132_science_125.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(407): web_url("0000208_fiction-ex_125.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(407): Notify: Parameter Substitution: parameter "C_product" =  "fiction"
+Action1.c(407): Notify: Parameter Substitution: parameter "C_Category" =  "books"
+Action1.c(407): Registering web_url("0000208_fiction-ex_125.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(415): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action1.c(415): web_concurrent_end was successful, 19535 body bytes, 1687 header bytes  	[MsgId: MMSG-26386]
+Action1.c(417): web_url("ico-arrow-r.gif") started  	[MsgId: MMSG-26355]
+Action1.c(417): web_url("ico-arrow-r.gif") was successful, 666 body bytes, 279 header bytes  	[MsgId: MMSG-26386]
+Action1.c(425): Notify: Transaction "3_Category" ended with a "Pass" status (Duration: 0.9768 Wasted Time: 0.0141).
+Action1.c(427): Notify: Transaction "4_Product" started.
+Action1.c(429): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action1.c(429): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action1.c(434): web_url("fiction") started  	[MsgId: MMSG-26355]
+Action1.c(434): Notify: Parameter Substitution: parameter "C_product" =  "fiction"
+Action1.c(434): Notify: Parameter Substitution: parameter "C_Category" =  "books"
+Action1.c(434): web_url("fiction") was successful, 8212 body bytes, 548 header bytes  	[MsgId: MMSG-26386]
+Action1.c(443): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action1.c(443): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action1.c(445): web_url("magnific-popup.css") started  	[MsgId: MMSG-26355]
+Action1.c(445): Notify: Parameter Substitution: parameter "C_product" =  "fiction"
+Action1.c(445): Registering web_url("magnific-popup.css") was successful  	[MsgId: MMSG-26390]
+Action1.c(453): web_url("jquery.magnific-popup.js") started  	[MsgId: MMSG-26355]
+Action1.c(453): Notify: Parameter Substitution: parameter "C_product" =  "fiction"
+Action1.c(453): Registering web_url("jquery.magnific-popup.js") was successful  	[MsgId: MMSG-26390]
+Action1.c(461): web_url("0000133_fiction_300.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(461): Notify: Parameter Substitution: parameter "C_product" =  "fiction"
+Action1.c(461): Notify: Parameter Substitution: parameter "C_product" =  "fiction"
+Action1.c(461): Registering web_url("0000133_fiction_300.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(469): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action1.c(469): web_concurrent_end was successful, 29867 body bytes, 947 header bytes  	[MsgId: MMSG-26386]
+Action1.c(471): Notify: Transaction "4_Product" ended with a "Pass" status (Duration: 1.0504 Wasted Time: 0.0111).
+Action1.c(475): Notify: Transaction "5_Add to cart" started.
+Action1.c(477): web_url("ajax_loader_large.gif") started  	[MsgId: MMSG-26355]
+Action1.c(477): web_url("ajax_loader_large.gif") was successful, 36343 body bytes, 281 header bytes  	[MsgId: MMSG-26386]
+Action1.c(485): web_submit_data("1") started  	[MsgId: MMSG-26355]
+Action1.c(485): Notify: Parameter Substitution: parameter "C_product" =  "fiction"
+Action1.c(485): web_submit_data("1") was successful, 765 body bytes, 421 header bytes  	[MsgId: MMSG-26386]
+Action1.c(496): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action1.c(496): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action1.c(498): web_url("ico-close-notification-bar.png") started  	[MsgId: MMSG-26355]
+Action1.c(498): Registering web_url("ico-close-notification-bar.png") was successful  	[MsgId: MMSG-26390]
+Action1.c(506): web_url("0000133_fiction_47.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(506): Notify: Parameter Substitution: parameter "C_product" =  "fiction"
+Action1.c(506): Notify: Parameter Substitution: parameter "C_product" =  "fiction"
+Action1.c(506): Registering web_url("0000133_fiction_47.jpeg") was successful  	[MsgId: MMSG-26390]
+Action1.c(514): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action1.c(514): web_concurrent_end was successful, 1914 body bytes, 560 header bytes  	[MsgId: MMSG-26386]
+Action1.c(516): Notify: Transaction "5_Add to cart" ended with a "Pass" status (Duration: 0.8714 Wasted Time: 0.0121).
+Action1.c(520): Notify: Transaction "6_shopping cart" started.
+Action1.c(522): web_url("cart") started  	[MsgId: MMSG-26355]
+Action1.c(522): Notify: Parameter Substitution: parameter "C_product" =  "fiction"
+Action1.c(522): web_url("cart") was successful, 9770 body bytes, 415 header bytes  	[MsgId: MMSG-26386]
+Action1.c(531): web_url("0000133_fiction_80.jpeg") started  	[MsgId: MMSG-26355]
+Action1.c(531): Notify: Parameter Substitution: parameter "C_product" =  "fiction"
+Action1.c(531): web_url("0000133_fiction_80.jpeg") was successful, 1893 body bytes, 281 header bytes  	[MsgId: MMSG-26386]
+Action1.c(539): Notify: Transaction "6_shopping cart" ended with a "Pass" status (Duration: 0.7483 Wasted Time: 0.0095).
+Action1.c(543): Notify: Transaction "7_Checkout" started.
+Action1.c(545): web_url("ajax_loader_small.gif") started  	[MsgId: MMSG-26355]
+Action1.c(545): web_url("ajax_loader_small.gif") was successful, 673 body bytes, 279 header bytes  	[MsgId: MMSG-26386]
+Action1.c(553): web_url("getstatesbycountryid") started  	[MsgId: MMSG-26355]
+Action1.c(553): web_url("getstatesbycountryid") was successful, 155 body bytes, 421 header bytes  	[MsgId: MMSG-26386]
+Action1.c(562): web_submit_data("cart_2") started  	[MsgId: MMSG-26355]
+Action1.c(562): Redirecting "https://demowebshop.tricentis.com/cart" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action1.c(562): To location "https://demowebshop.tricentis.com/login/checkoutasguest?returnUrl=%2Fcart"  	[MsgId: MMSG-26693]
+Action1.c(562): web_submit_data("cart_2") was successful, 6290 body bytes, 837 header bytes  	[MsgId: MMSG-26386]
+Action1.c(581): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action1.c(581): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action1.c(583): web_url("public.accordion.js") started  	[MsgId: MMSG-26355]
+Action1.c(583): Registering web_url("public.accordion.js") was successful  	[MsgId: MMSG-26390]
+Action1.c(591): web_url("public.onepagecheckout.js") started  	[MsgId: MMSG-26355]
+Action1.c(591): Registering web_url("public.onepagecheckout.js") was successful  	[MsgId: MMSG-26390]
+Action1.c(599): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action1.c(599): web_concurrent_end was successful, 3886 body bytes, 683 header bytes  	[MsgId: MMSG-26386]
+Action1.c(601): Notify: Transaction "7_Checkout" ended with a "Pass" status (Duration: 1.2947 Wasted Time: 0.0166).
+Action1.c(605): Notify: Transaction "8_Billing Address" started.
+Action1.c(607): web_url("getstatesbycountryid_2") started  	[MsgId: MMSG-26355]
+Action1.c(607): web_url("getstatesbycountryid_2") was successful, 155 body bytes, 421 header bytes  	[MsgId: MMSG-26386]
+Action1.c(618): web_submit_data("OpcSaveBilling") started  	[MsgId: MMSG-26355]
+Action1.c(618): Notify: Parameter Substitution: parameter "P_FirstName" =  "kenche"
+Action1.c(618): Notify: Parameter Substitution: parameter "P_LastName" =  "sowmya"
+Action1.c(618): Notify: Parameter Substitution: parameter "P_Email" =  "sowmyakenche@gmail.com"
+Action1.c(618): web_submit_data("OpcSaveBilling") was successful, 5413 body bytes, 422 header bytes  	[MsgId: MMSG-26386]
+Action1.c(642): web_url("arrow-up.png") started  	[MsgId: MMSG-26355]
+Action1.c(642): web_url("arrow-up.png") was successful, 612 body bytes, 279 header bytes  	[MsgId: MMSG-26386]
+Action1.c(650): web_submit_data("OpcSaveShipping") started  	[MsgId: MMSG-26355]
+Action1.c(650): web_submit_data("OpcSaveShipping") was successful, 167 body bytes, 421 header bytes  	[MsgId: MMSG-26386]
+Action1.c(676): web_submit_data("OpcSaveShippingMethod") started  	[MsgId: MMSG-26355]
+Action1.c(676): web_submit_data("OpcSaveShippingMethod") was successful, 872 body bytes, 421 header bytes  	[MsgId: MMSG-26386]
+Action1.c(687): web_concurrent_start started  	[MsgId: MMSG-26355]
+Action1.c(687): web_concurrent_start was successful  	[MsgId: MMSG-26392]
+Action1.c(689): web_url("logo.jpg") started  	[MsgId: MMSG-26355]
+Action1.c(689): Registering web_url("logo.jpg") was successful  	[MsgId: MMSG-26390]
+Action1.c(697): web_url("logo.jpg_2") started  	[MsgId: MMSG-26355]
+Action1.c(697): Registering web_url("logo.jpg_2") was successful  	[MsgId: MMSG-26390]
+Action1.c(705): web_url("logo.jpg_3") started  	[MsgId: MMSG-26355]
+Action1.c(705): Registering web_url("logo.jpg_3") was successful  	[MsgId: MMSG-26390]
+Action1.c(713): web_url("logo.jpg_4") started  	[MsgId: MMSG-26355]
+Action1.c(713): Registering web_url("logo.jpg_4") was successful  	[MsgId: MMSG-26390]
+Action1.c(721): web_concurrent_end started  	[MsgId: MMSG-26355]
+Action1.c(721): web_concurrent_end was successful, 12191 body bytes, 1124 header bytes  	[MsgId: MMSG-26386]
+Action1.c(723): web_submit_data("OpcSavePaymentMethod") started  	[MsgId: MMSG-26355]
+Action1.c(723): web_submit_data("OpcSavePaymentMethod") was successful, 481 body bytes, 421 header bytes  	[MsgId: MMSG-26386]
+Action1.c(734): web_custom_request("OpcSavePaymentInfo") started  	[MsgId: MMSG-26355]
+Action1.c(734): web_custom_request("OpcSavePaymentInfo") was successful, 1927 body bytes, 510 header bytes  	[MsgId: MMSG-26386]
+Action1.c(745): Notify: Transaction "8_Billing Address" ended with a "Pass" status (Duration: 2.9580 Wasted Time: 0.0310).
+Action1.c(749): Notify: Transaction "9_confirm" started.
+Action1.c(751): web_custom_request("OpcConfirmOrder") started  	[MsgId: MMSG-26355]
+Action1.c(751): web_custom_request("OpcConfirmOrder") was successful, 1978 body bytes, 422 header bytes  	[MsgId: MMSG-26386]
+Action1.c(762): web_url("completed") started  	[MsgId: MMSG-26355]
+Action1.c(762): Redirecting "https://demowebshop.tricentis.com/checkout/completed/" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action1.c(762): To location "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26693]
+Action1.c(762): web_url("completed") was successful, 8128 body bytes, 798 header bytes  	[MsgId: MMSG-26386]
+Action1.c(771): Notify: Transaction "9_confirm" ended with a "Pass" status (Duration: 1.1113 Wasted Time: 0.0100).
+Ending action Action1.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 6240), ended OK."

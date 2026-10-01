@@ -1,0 +1,71 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=DemoWebShop.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2022
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2022.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2022.0.0.0
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-US
+[Actions]
+vuser_init=vuser_init.c
+Action1=Action1.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+WebSocketBuffer.h=
+[Modified Actions]
+vuser_init=0
+Action1=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=1
+Action1=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action1=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action1=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="1_LaunchUrl__*delimiter*__2_Register__*delimiter*__3_Category__*delimiter*__4_Product__*delimiter*__5_Add to cart__*delimiter*__6_shopping cart__*delimiter*__7_Checkout__*delimiter*__8_Billing Address__*delimiter*__9_confirm"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+1_LaunchUrl=
+2_Register=
+3_Category=
+4_Product=
+"5_Add to cart"=
+"6_shopping cart"=
+7_Checkout=
+"8_Billing Address"=
+9_confirm=
