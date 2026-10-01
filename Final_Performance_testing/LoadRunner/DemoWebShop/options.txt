@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-ID:\study\CAPGEMINI\performance-testing\DemoWebShop
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ed:\study\capgemini\performance-testing\demowebshop\\logfile.log
+d:\study\capgemini\performance-testing\demowebshop\\combined_DemoWebShop.c
+d:\study\capgemini\performance-testing\demowebshop\\pre_cci.c
